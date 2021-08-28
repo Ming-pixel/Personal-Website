@@ -1,0 +1,466 @@
+.top-include {
+  position: relative; }
+  .top-include .top-bg-area {
+    padding: 180px 0;
+    z-index: -5; }
+  .top-include .top-post-title {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 15px 30px 15px;
+    color: #323232;
+    text-align: center; }
+  .top-include p {
+    text-align: center; }
+
+.device-include {
+  position: relative;
+  max-width: 700px;
+  margin: -300px auto 0 auto;
+  padding: 0 15px;
+  z-index: 5;
+  text-align: center; }
+  .device-include img {
+    width: 100%;
+    height: auto; }
+  .device-include .mac .part1 {
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+    border-top: 1px solid #e6eaed;
+    border-left: 1px solid #e6eaed;
+    border-right: 1px solid #e6eaed;
+    background-color: #323232; }
+    .device-include .mac .part1:before {
+      width: 5px;
+      height: 5px;
+      margin-top: 15px;
+      border-radius: 50%;
+      background-color: #111111; }
+  .device-include .mac .part2 {
+    width: 100%;
+    height: 60px;
+    border-radius: 0 0 5px 5px;
+    background: #e6eaed; }
+  .device-include .mac .part3 {
+    width: 200px;
+    height: 0;
+    background: transparent;
+    border-bottom: 60px solid #e6eaed;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; }
+  .device-include .mac .part4 {
+    width: 260px;
+    height: 12px;
+    background: #e6eaed;
+    border-radius: 30px 30px 10px 10px; }
+  .device-include .mac-book .part1 {
+    position: relative;
+    width: 80%;
+    padding: 30px;
+    border-top: 1px solid #e6eaed;
+    border-left: 1px solid #e6eaed;
+    border-right: 1px solid #e6eaed;
+    border-radius: 10px 10px 0 0;
+    background-color: #323232; }
+    .device-include .mac-book .part1:before {
+      width: 5px;
+      height: 5px;
+      margin-top: 15px;
+      border-radius: 50%;
+      background-color: #111111; }
+  .device-include .mac-book .part2 {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: #e6eaed;
+    border-radius: 0 0 20px 20px; }
+    .device-include .mac-book .part2:after {
+      width: 100px;
+      height: 10px;
+      margin-left: -50px;
+      border-radius: 0 0 6px 6px;
+      background: rgba(0, 0, 0, 0.2); }
+  .device-include .ipad .part1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid #e6eaed;
+    border-radius: 20px;
+    background-color: #fff; }
+    .device-include .ipad .part1:before {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2); }
+    .device-include .ipad .part1:after {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: #e6eaed; }
+  .device-include .ipad.horizontal {
+    max-width: 630px; }
+    .device-include .ipad.horizontal .part1 {
+      padding: 40px 55px; }
+      .device-include .ipad.horizontal .part1:before {
+        left: 25px;
+        top: 50%; }
+      .device-include .ipad.horizontal .part1:after {
+        left: auto;
+        right: 10px;
+        top: 50%;
+        margin-top: -18px; }
+  .device-include .ipad.vertical {
+    max-width: 470px; }
+    .device-include .ipad.vertical .part1 {
+      padding: 55px 40px; }
+      .device-include .ipad.vertical .part1:before {
+        margin-top: 25px; }
+      .device-include .ipad.vertical .part1:after {
+        top: auto;
+        bottom: 10px;
+        margin-left: -18px; }
+  .device-include .android-pad .part1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid #e6eaed;
+    border-radius: 50px;
+    background-color: #fff; }
+    .device-include .android-pad .part1:before {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2); }
+    .device-include .android-pad .part1:after {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2); }
+  .device-include .android-pad .part2 {
+    position: inherit;
+    z-index: 2;
+    width: 100%;
+    height: 36px;
+    margin-top: -36px;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    text-align: center; }
+    .device-include .android-pad .part2 i {
+      padding: 0 20px;
+      color: #fff;
+      font-size: 26px;
+      line-height: 35px; }
+  .device-include .android-pad.horizontal {
+    max-width: 630px; }
+    .device-include .android-pad.horizontal .part1 {
+      padding: 40px 55px; }
+      .device-include .android-pad.horizontal .part1:before {
+        margin-top: 20px; }
+      .device-include .android-pad.horizontal .part1:after {
+        margin-left: 35px;
+        margin-top: 17px; }
+  .device-include .android-pad.vertical {
+    max-width: 470px; }
+    .device-include .android-pad.vertical .part1 {
+      padding: 55px 40px; }
+      .device-include .android-pad.vertical .part1:before {
+        left: 20px;
+        top: 50%; }
+      .device-include .android-pad.vertical .part1:after {
+        left: 17px;
+        top: 50%;
+        margin-top: -35px; }
+  .device-include .windows-pad .part1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid #e6eaed;
+    border-radius: 20px;
+    background-color: #fff; }
+  .device-include .windows-pad .part2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle; }
+    .device-include .windows-pad .part2 i {
+      color: rgba(0, 0, 0, 0.3); }
+  .device-include .windows-pad.horizontal {
+    max-width: 600px; }
+    .device-include .windows-pad.horizontal .part1 {
+      padding: 40px 40px 55px 40px; }
+    .device-include .windows-pad.horizontal .part2 {
+      left: 50%;
+      bottom: 3px;
+      margin-left: -20px; }
+  .device-include .windows-pad.vertical {
+    max-width: 485px; }
+    .device-include .windows-pad.vertical .part1 {
+      padding: 40px 55px 40px 40px; }
+    .device-include .windows-pad.vertical .part2 {
+      right: 3px;
+      top: 50%;
+      margin-top: -20px;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+  .device-include .iphone .part1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid #e6eaed;
+    border-radius: 30px;
+    background-color: #fff; }
+    .device-include .iphone .part1:before {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2); }
+    .device-include .iphone .part1:after {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: #e6eaed; }
+  .device-include .iphone .part2 {
+    position: absolute;
+    border-radius: 10px;
+    background-color: #e6eaed; }
+  .device-include .iphone.horizontal {
+    max-width: 500px; }
+    .device-include .iphone.horizontal .part1 {
+      padding: 15px 60px; }
+      .device-include .iphone.horizontal .part1:before {
+        left: 10px;
+        top: 50%; }
+      .device-include .iphone.horizontal .part1:after {
+        left: auto;
+        right: 10px;
+        top: 50%;
+        margin-top: -18px; }
+    .device-include .iphone.horizontal .part2 {
+      width: 10px;
+      height: 50px;
+      top: 50%;
+      left: 30px;
+      margin-top: -25px; }
+  .device-include .iphone.vertical {
+    max-width: 260px; }
+    .device-include .iphone.vertical .part1 {
+      padding: 60px 15px; }
+      .device-include .iphone.vertical .part1:before {
+        margin-top: 10px; }
+      .device-include .iphone.vertical .part1:after {
+        top: auto;
+        bottom: 10px;
+        margin-left: -18px; }
+    .device-include .iphone.vertical .part2 {
+      width: 50px;
+      height: 10px;
+      top: 30px;
+      left: 50%;
+      margin-left: -25px; }
+  .device-include .android-phone .part1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid #e6eaed;
+    border-radius: 60px;
+    background-color: #fff; }
+    .device-include .android-phone .part1:before {
+      background: transparent; }
+  .device-include .android-phone .part2 {
+    position: inherit;
+    z-index: 2;
+    width: 100%;
+    height: 36px;
+    margin-top: -36px;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    text-align: center; }
+    .device-include .android-phone .part2 i {
+      padding: 0 20px;
+      color: #fff;
+      font-size: 26px;
+      line-height: 35px; }
+  .device-include .android-phone.horizontal {
+    max-width: 510px; }
+    .device-include .android-phone.horizontal .part1 {
+      padding: 10px 50px; }
+      .device-include .android-phone.horizontal .part1:before {
+        width: 0;
+        height: 80px;
+        left: 15px;
+        top: 50%;
+        margin-top: -40px;
+        background: transparent;
+        border-left: 5px solid rgba(0, 0, 0, 0.2);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent; }
+  .device-include .android-phone.vertical {
+    max-width: 280px; }
+    .device-include .android-phone.vertical .part1 {
+      padding: 50px 10px; }
+      .device-include .android-phone.vertical .part1:before {
+        width: 80px;
+        height: 0;
+        top: 15px;
+        left: 50%;
+        margin-left: -40px;
+        background: transparent;
+        border-top: 5px solid rgba(0, 0, 0, 0.3);
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent; }
+  .device-include .windows-phone .part1 {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #e6eaed;
+    background-color: #fff; }
+  .device-include .windows-phone .part2 {
+    position: relative;
+    background-color: #323232;
+    border-radius: 15px; }
+    .device-include .windows-phone .part2:before {
+      border-radius: 10px;
+      background-color: #111111; }
+    .device-include .windows-phone .part2 img {
+      border-radius: 5px; }
+  .device-include .windows-phone .part3 {
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle; }
+    .device-include .windows-phone .part3 i {
+      color: rgba(255, 255, 255, 0.3); }
+  .device-include .windows-phone.horizontal {
+    max-width: 500px; }
+    .device-include .windows-phone.horizontal .part2 {
+      padding: 15px 60px; }
+      .device-include .windows-phone.horizontal .part2:before {
+        width: 5px;
+        height: 60px;
+        top: 50%;
+        left: 15px;
+        margin-top: -30px; }
+    .device-include .windows-phone.horizontal .part3 {
+      top: 50%;
+      left: auto;
+      right: 12px;
+      margin-top: -20px;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+  .device-include .windows-phone.vertical {
+    max-width: 260px; }
+    .device-include .windows-phone.vertical .part2 {
+      padding: 60px 15px; }
+      .device-include .windows-phone.vertical .part2:before {
+        width: 60px;
+        height: 5px;
+        top: 15px;
+        left: 50%;
+        margin-left: -30px; }
+    .device-include .windows-phone.vertical .part3 {
+      top: auto;
+      bottom: 12px;
+      left: 50%;
+      margin-left: -20px; }
+  .device-include .browser .part1 {
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #e6eaed; }
+  .device-include .browser .part2 img {
+    border-radius: 0 0 10px 10px !important; }
+  .device-include .browser .part3 {
+    position: relative;
+    height: 40px; }
+  .device-include .browser .part4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #F44336;
+    border-radius: 50%; }
+    .device-include .browser .part4:before {
+      width: 20px;
+      height: 20px;
+      background: #ffc107;
+      border-radius: 50%;
+      margin-left: 20px; }
+    .device-include .browser .part4:after {
+      width: 20px;
+      height: 20px;
+      background: #4caf50;
+      border-radius: 50%;
+      margin-left: 50px; }
+  .device-include .browser .part5 {
+    position: absolute;
+    width: 70%;
+    height: 20px;
+    right: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1); }
+  .device-include .ppt .part1 {
+    position: relative;
+    width: 96%;
+    padding: 30px;
+    border-top: 1px solid #e6eaed;
+    border-left: 1px solid #e6eaed;
+    border-right: 1px solid #e6eaed;
+    border-radius: 10px 10px 0 0;
+    background-color: #fff; }
+  .device-include .ppt .part2 {
+    height: 10px;
+    background: #e6eaed; }
+  .device-include .ppt .part3 {
+    z-index: -10;
+    margin-top: -230px;
+    text-align: center; }
+    .device-include .ppt .part3 i {
+      font-size: 300px;
+      color: #e6eaed; }
+  .device-include .other {
+    max-width: 700px; }
+    .device-include .other .part1 {
+      position: relative;
+      width: 100%; }
+  .device-include .mac, .device-include .mac-book,
+  .device-include .ipad, .device-include .android-pad, .device-include .windows-pad,
+  .device-include .iphone, .device-include .android-phone, .device-include .windows-phone,
+  .device-include .browser, .device-include .ppt, .device-include .other {
+    padding-bottom: 30px;
+    margin: 0 auto; }
+  .device-include .part1, .device-include .part2, .device-include .part3, .device-include .part4 {
+    margin: 0 auto; }
+    .device-include .part1:before, .device-include .part1:after, .device-include .part2:before, .device-include .part2:after, .device-include .part3:before, .device-include .part3:after, .device-include .part4:before, .device-include .part4:after {
+      position: absolute;
+      content: '';
+      z-index: 10;
+      left: 50%;
+      top: 0; }
+
+@media (max-width: 768px) {
+  .device-include {
+    -webkit-transform: scale(0.5) translateX(-50%) translateY(10%);
+    -moz-transform: scale(0.5) translateX(-50%) translateY(10%);
+    -ms-transform: scale(0.5) translateX(-50%) translateY(10%);
+    transform: scale(0.5) translateX(-50%) translateY(10%);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    left: 50%; } }
