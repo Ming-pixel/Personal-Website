@@ -1,6 +1,5 @@
 <?php
 /**
- * The template for About single page
  *
  * @package WordPress
  * @subpackage Ming_Littlefish
